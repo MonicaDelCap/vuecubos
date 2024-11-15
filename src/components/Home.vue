@@ -1,5 +1,4 @@
 <template>
-  <h1 style="text-align: center; margin: 20px; font-size: 2.5rem; color: #2c3e50;">Home</h1>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px;">
     <div class="card custom-card" v-for="cub of cubos" :key="cub">
       <img :src="cub.imagen" class="card-img-top custom-card-img" alt="...">
