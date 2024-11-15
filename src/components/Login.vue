@@ -16,7 +16,7 @@
     <div class="row gx-5">
       <div class="col-sm-10 offset-sm-2">
         <button @click="getToken()" class="btn btn-info btn-custom">
-          Token
+          Login
         </button>
       </div>
     </div>
